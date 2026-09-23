@@ -4,3 +4,5 @@ data/app.db
 data/app.db-journal
 *.log
 .DS_Store
+.env
+.env.local

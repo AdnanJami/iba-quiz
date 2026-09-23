@@ -23,7 +23,7 @@ interface ImportBody {
 }
 
 // POST /api/exams/import - convert an HTML export to JSON and save it
-router.post("/", (req: Request, res: Response) => {
+router.post("/", async (req: Request, res: Response) => {
   const body = req.body as ImportBody;
 
   if (!body || typeof body.html !== "string" || !body.html.trim()) {
@@ -56,7 +56,7 @@ router.post("/", (req: Request, res: Response) => {
   const id = slugify(baseId) || `exam-${Date.now()}`;
 
   try {
-    upsertExam(id, title, template);
+    await upsertExam(id, title, template);
   } catch (err) {
     res.status(500).json({ error: `Failed to save exam: ${(err as Error).message}` });
     return;

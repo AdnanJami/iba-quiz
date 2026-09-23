@@ -1,3 +1,4 @@
+import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import { upsertExam } from "./db";
@@ -13,7 +14,7 @@ function slugify(input: string): string {
     .replace(/(^-|-$)/g, "");
 }
 
-function main(): void {
+async function main(): Promise<void> {
   if (!fs.existsSync(TEMPLATES_DIR)) {
     console.log(`No templates directory found at ${TEMPLATES_DIR}, nothing to seed.`);
     return;
@@ -45,7 +46,7 @@ function main(): void {
     const title = template.exam_summary?.exam_title || path.basename(file, ".json");
     const id = slugify(path.basename(file, ".json"));
 
-    upsertExam(id, title, template);
+    await upsertExam(id, title, template);
     count += 1;
     console.log(`Seeded "${title}" as "${id}" (${template.questions.length} questions)`);
   }
@@ -53,4 +54,7 @@ function main(): void {
   console.log(`Done. Seeded ${count} exam template(s).`);
 }
 
-main();
+main().catch((err) => {
+  console.error("Seed failed:", err);
+  process.exitCode = 1;
+});
