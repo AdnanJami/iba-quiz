@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+  --navy: #00007c;
+  --orange: #fc6b15;
+  --coral: #f36c72;
+  --cream: #eae5df;
+
+  --border-w: 3px;
+  --radius: 20px;
+  --shadow-off: 7px;
+
+  --font-display: "Baloo 2", ui-rounded, system-ui, sans-serif;
+  --font-body: "Space Grotesk", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--navy);
+  color: var(--cream);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  margin: 0 0 0.4em;
+  letter-spacing: 0.5px;
+}
+
+p {
+  line-height: 1.55;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- top bar ---------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 20px;
+  max-width: 980px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: var(--cream);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  transform: rotate(-2deg);
+}
+
+.brand span {
+  color: var(--orange);
+}
+
+.brand-tagline {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--coral);
+  opacity: 0.9;
+}
+
+/* ---------- neo-brutalist card ---------- */
+.brutal {
+  background: var(--cream);
+  color: var(--navy);
+  border: var(--border-w) solid var(--navy);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--orange);
+  position: relative;
+}
+
+.brutal-alt {
+  box-shadow: var(--shadow-off) var(--shadow-off) 0 0 var(--coral);
+}
+
+/* ---------- buttons ---------- */
+.btn {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border: var(--border-w) solid var(--navy);
+  border-radius: 999px;
+  background: var(--cream);
+  color: var(--navy);
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 5px 5px 0 0 var(--navy);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 0 var(--navy);
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 0 var(--navy);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: 5px 5px 0 0 var(--navy);
+}
+
+.btn-primary {
+  background: var(--orange);
+  color: var(--navy);
+}
+
+.btn-coral {
+  background: var(--coral);
+  color: var(--navy);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--cream);
+  border-color: var(--cream);
+  box-shadow: 5px 5px 0 0 var(--coral);
+}
+
+.btn-ghost:hover {
+  box-shadow: 7px 7px 0 0 var(--coral);
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.8rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* ---------- home: exam list ---------- */
+.hero {
+  text-align: center;
+  padding: 20px 0 44px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  color: var(--cream);
+}
+
+.hero .accent {
+  color: var(--orange);
+}
+
+.hero p {
+  color: var(--coral);
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 1.02rem;
+}
+
+.exam-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 26px;
+  margin-top: 12px;
+}
+
+.exam-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.exam-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.exam-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 2px solid var(--navy);
+  background: #fff;
+}
+
+.pill-orange {
+  background: var(--orange);
+}
+
+.pill-coral {
+  background: var(--coral);
+}
+
+.exam-card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--coral);
+}
+
+/* ---------- exam taking page ---------- */
+.exam-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 24px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.exam-header h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.exam-progress {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--navy);
+  opacity: 0.75;
+}
+
+.timer {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.3rem;
+  background: var(--navy);
+  color: var(--cream);
+  border-radius: 999px;
+  padding: 10px 20px;
+  border: var(--border-w) solid var(--navy);
+  min-width: 96px;
+  text-align: center;
+}
+
+.timer.warn {
+  background: var(--coral);
+  color: var(--navy);
+  border-color: var(--navy);
+}
+
+.question-card {
+  padding: 24px;
+  margin-bottom: 22px;
+}
+
+.question-card .comprehension {
+  font-size: 0.88rem;
+  background: rgba(0, 0, 124, 0.06);
+  border: 2px dashed var(--navy);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+
+.question-card .q-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.q-number {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--orange);
+}
+
+.q-category {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--navy);
+  opacity: 0.6;
+}
+
+.question-text {
+  font-size: 1.02rem;
+  margin-bottom: 16px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 2px solid var(--navy);
+  border-radius: 12px;
+  cursor: pointer;
+  background: #fff;
+  transition: transform 0.06s ease, background 0.1s ease;
+}
+
+.option:hover {
+  transform: translate(-1px, -1px);
+}
+
+.option input {
+  margin-top: 3px;
+  accent-color: var(--orange);
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.option.selected {
+  background: var(--orange);
+}
+
+.option .opt-label {
+  font-weight: 700;
+  font-family: var(--font-display);
+}
+
+.submit-bar {
+  position: sticky;
+  bottom: 16px;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+/* ---------- results page ---------- */
+.score-card {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.score-big {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 3.2rem;
+  color: var(--orange);
+  line-height: 1;
+}
+
+.score-sub {
+  font-weight: 600;
+  opacity: 0.75;
+  margin-bottom: 18px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 18px 0;
+}
+
+.stat-chip {
+  border: 2px solid var(--navy);
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.stat-chip.correct {
+  background: var(--orange);
+}
+
+.stat-chip.wrong {
+  background: var(--coral);
+}
+
+.stat-chip.unattempted {
+  background: #fff;
+}
+
+.result-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.breakdown-toggle {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.breakdown-question {
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.answer-line {
+  font-size: 0.92rem;
+  margin: 4px 0;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-left: 6px;
+  border: 2px solid var(--navy);
+}
+
+.tag-correct {
+  background: var(--orange);
+}
+
+.tag-wrong {
+  background: var(--coral);
+}
+
+.tag-unattempted {
+  background: #fff;
+}
+
+.explanation {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  background: rgba(0, 0, 124, 0.06);
+  border-left: 4px solid var(--orange);
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+.option-review {
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  padding: 9px 12px;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 10px;
+}
+
+.option-review.is-correct-opt {
+  background: var(--orange);
+}
+
+.option-review.is-selected-wrong {
+  background: var(--coral);
+}
+
+/* ---------- decorative floral / neo-brutalist doodles ---------- */
+.doodle {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.doodle-flower {
+  width: 70px;
+}
+
+.doodle-swirl {
+  width: 140px;
+}
+
+.doodle-fish {
+  width: 90px;
+}
+
+/* ---------- misc ---------- */
+.center-note {
+  text-align: center;
+  color: var(--coral);
+  margin: 40px 0;
+}
+
+.spinner-note {
+  text-align: center;
+  padding: 60px 0;
+  color: var(--coral);
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.78rem;
+  color: var(--coral);
+  opacity: 0.8;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 560px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .score-big {
+    font-size: 2.4rem;
+  }
+  .exam-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.btn-ghost-dark {
+  background: transparent;
+  color: var(--navy);
+  border-color: var(--navy);
+  box-shadow: 5px 5px 0 0 var(--coral);
+}
+
+.btn-ghost-dark:hover {
+  box-shadow: 7px 7px 0 0 var(--coral);
+}

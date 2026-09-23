@@ -1,0 +1,1530 @@
+{
+  "exam_summary": {
+    "exam_title": "ED09 - Review Exam (Exam 01-08)",
+    "date": "2026-09-22 12:01 AM",
+    "duration": "25 minutes",
+    "total_marks": "30 marks",
+    "total_questions": "30 questions",
+    "score_text": null,
+    "score_obtained": null,
+    "score_total": null
+  },
+  "submission_overview": {},
+  "category_performance": [
+    {
+      "category": "English",
+      "score": null,
+      "pass_marks": "0",
+      "total_marks": "30",
+      "status": null
+    }
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "11414",
+      "answer_id": "1382831",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": "Question (1-10) are based on the following Instruction: Instruction : Underlined parts of the following sentences may contain error(s) in grammar, diction, usage or idiom. Choose the underlined portion(s) that contain(s) such error(s).",
+      "question_text": "The medical board recommended that every hospital provides (A) emergency treatment regardless (B) of the patient's (C) financial condition . (D) No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "A",
+      "selected_answer": null,
+      "explanation": "After recommend that , use the base form: recommended that every hospital provide . This is the subjunctive."
+    },
+    {
+      "question_number": 2,
+      "question_id": "11415",
+      "answer_id": "1382832",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The experiment appeared promising (A) at first, (B) however, the researchers (C) soon discovered that the data had been (D) contaminated. No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "If two independent clauses are joined by conjunctive adverb, then the correct form would be: IC + (;) + Conjunctive Adverb + (,) + IC Correct: The experiment appeared promising at first; however, the researchers soon discovered that the data had been contaminated"
+    },
+    {
+      "question_number": 3,
+      "question_id": "11416",
+      "answer_id": "1382833",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The newly opened museum contains (A) several expensive pieces of furniture (B) imported from Europe, along with rare antiques (C) that were collected (B) by historians over several decades . (D) No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "E",
+      "selected_answer": null,
+      "explanation": "Furniture is uncountable. The expression several expensive pieces of furniture is correctly used."
+    },
+    {
+      "question_number": 4,
+      "question_id": "11417",
+      "answer_id": "1382834",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "Those who (A) have less (B) medical issues are more likely to be happier (C) and less depressed than (D) their counterparts. (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "issues are plural; hence the correct quantifier before medical issues would be fewer."
+    },
+    {
+      "question_number": 5,
+      "question_id": "11418",
+      "answer_id": "1382835",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The museum staff avoided him (A) displaying (B) the fragile painting (C) near the window because direct sunlight could damage the pigments . (D) No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "A",
+      "selected_answer": null,
+      "explanation": "before gerund, noun/ pronoun will be in possessive form : avoided his displaying"
+    },
+    {
+      "question_number": 6,
+      "question_id": "11419",
+      "answer_id": "1382836",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The schools in that area have (A) always been known (B) for its (C) strong academics, athletic program, and (D) up-to-date facilities. No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "C",
+      "selected_answer": null,
+      "explanation": "Explanations: its should be replaced by their, as it refers plural schools"
+    },
+    {
+      "question_number": 7,
+      "question_id": "11420",
+      "answer_id": "1382837",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "Sujan was captivated (A) by the splendor (B) of this house, which was indeed the most beautiful (C) decorated house she had ever come across . (D) No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "C",
+      "selected_answer": null,
+      "explanation": "beautifully decorated house. Adverb + Adjective + Noun"
+    },
+    {
+      "question_number": 8,
+      "question_id": "11421",
+      "answer_id": "1382838",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "Jamal made his (A) driver wash (B) the car every morning, like (C) his father did . (D) No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "C",
+      "selected_answer": null,
+      "explanation": "like should be replaced by as, because it is comparing two actions. Like is used while comparing two noun/ pronoun."
+    },
+    {
+      "question_number": 9,
+      "question_id": "11422",
+      "answer_id": "1382839",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The number of endangered (A) species in (B) the region has (C) increased considerably (D) during the last decade. No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "E",
+      "selected_answer": null,
+      "explanation": "the number of + Plural Noun + singular Verb"
+    },
+    {
+      "question_number": 10,
+      "question_id": "11423",
+      "answer_id": "1382840",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The photographs having taken (A) during the expedition were (B) later donated (C) to the national archive . (D) No Error (E)",
+      "options": [
+        {
+          "label": "A",
+          "text": "A",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "B",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "C",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "D",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "E",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "A",
+      "selected_answer": null,
+      "explanation": "The photographs received the action. Correct option would be taken ."
+    },
+    {
+      "question_number": 11,
+      "question_id": "11424",
+      "answer_id": "1382841",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": "Question (11-15) are based on the following Instruction: Instruction : Please select the most suitable option to fill in the blanks:",
+      "question_text": "The hikers had ______ luggage to make the journey difficult.",
+      "options": [
+        {
+          "label": "A",
+          "text": "enough of",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "enough",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "enough luggages",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "many enough",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "enough pieces",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "Luggage is uncountable: enough luggage"
+    },
+    {
+      "question_number": 12,
+      "question_id": "11425",
+      "answer_id": "1382842",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The archaeologists hoped ________ a previously unknown burial chamber beneath the temple.",
+      "options": [
+        {
+          "label": "A",
+          "text": "having discovered",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "to have discovered",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "discovering",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "to discovering",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "having been discover",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "hope + perfect infinitive : hoped to have discovered"
+    },
+    {
+      "question_number": 13,
+      "question_id": "11426",
+      "answer_id": "1382843",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The committee insisted that the confidential documents ________ released to the press.",
+      "options": [
+        {
+          "label": "A",
+          "text": "are not",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "were not",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "not be",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "be not",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "have not been",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "C",
+      "selected_answer": null,
+      "explanation": "Negative subjunctive: insisted that the documents not be released"
+    },
+    {
+      "question_number": 14,
+      "question_id": "11427",
+      "answer_id": "1382844",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The physician considered the new treatment _________, although she warned that the dosage should be ________ because some patients are considerably more sensitive to the medication than _________.",
+      "options": [
+        {
+          "label": "A",
+          "text": "highly effective / adjusted careful / others patients",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "highly effectively / adjusted carefully / that of other patients",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "highly effective / adjusted carefully / other patients",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "highly effectively / adjusted careful / that of other patients",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "highly effective / adjusted carefully / those of other patients",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "C",
+      "selected_answer": null,
+      "explanation": "effective is an adjective after the linking verb considered → considered the treatment highly effective carefully modifies the verb adjusted The characteristics of other patients correctly compared with some patients ; those of not required."
+    },
+    {
+      "question_number": 15,
+      "question_id": "11428",
+      "answer_id": "1382845",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The board's recommendation was that every researcher who _______ to the confidential data ___________ , and that no information ________ before the final review.",
+      "options": [
+        {
+          "label": "A",
+          "text": "has access / submit their findings / are released",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "has access / submits their findings / be released",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "have access / submit his or her findings / be released",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "has access / submit his or her findings / be released",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "have access / submits his or her findings / are released",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "D",
+      "selected_answer": null,
+      "explanation": "every researcher is singular, so it takes singular verb has and singular pronoun his or her. After recommendation was that , use base form submit and subjunctive passive be released"
+    },
+    {
+      "question_number": 16,
+      "question_id": "11429",
+      "answer_id": "1382846",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": "Question (16-28) are based on the following instruction : Instruction: The underlined part of the given sentence may contain error. Select the choice that best replaces the underlined part keeping the original meaning intact.",
+      "question_text": "The Admin of the art gallery department had the technician repair the security system before the exhibition opened.",
+      "options": [
+        {
+          "label": "A",
+          "text": "repair the security system",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "to repair the security system",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "repairing the security system",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "repaired the security system",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "having repaired the security system",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "A",
+      "selected_answer": null,
+      "explanation": "With have + person , use the base verb: had the technician repair"
+    },
+    {
+      "question_number": 17,
+      "question_id": "11430",
+      "answer_id": "1382847",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The principal, along with several senior teachers, are attending the ceremony.",
+      "options": [
+        {
+          "label": "A",
+          "text": "are attending",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "were attending",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "have been attending",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "is attending",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "have attending",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "D",
+      "selected_answer": null,
+      "explanation": "along with does not make the subject plural. The real subject is principal ."
+    },
+    {
+      "question_number": 18,
+      "question_id": "11431",
+      "answer_id": "1382848",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The architect decided postponing the demolition until the historical survey was completed.",
+      "options": [
+        {
+          "label": "A",
+          "text": "postponing the demolition",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "to postpone the demolition",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "postpone the demolition",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "having postponed the demolition",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "to postponing the demolition",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "decide + infinitive : decided to postpone"
+    },
+    {
+      "question_number": 19,
+      "question_id": "11432",
+      "answer_id": "1382849",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The novelist got her editor review the final chapter once more.",
+      "options": [
+        {
+          "label": "A",
+          "text": "review",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "to review",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "reviewing",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "reviewed",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "reviews",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "get + person + to + V1 got her editor to review"
+    },
+    {
+      "question_number": 20,
+      "question_id": "11433",
+      "answer_id": "1382850",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The committee suggested that the report is revised before publication.",
+      "options": [
+        {
+          "label": "A",
+          "text": "is revised",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "be revised",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "was revised",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "will be revised",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "has been revised",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "suggest that + base verb : suggested that the report be revised"
+    },
+    {
+      "question_number": 21,
+      "question_id": "11434",
+      "answer_id": "1382851",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The discovery of several previously unknown inscriptions have changed historians' understanding of the dynasty.",
+      "options": [
+        {
+          "label": "A",
+          "text": "have changed",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "has changed",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "having changed",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "are changing",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "were changing",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "The subject is discovery , which is singular."
+    },
+    {
+      "question_number": 22,
+      "question_id": "11435",
+      "answer_id": "1382852",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "Only after the engineers had inspected the damaged bridge they realized that several support beams needed to be replaced.",
+      "options": [
+        {
+          "label": "A",
+          "text": "they realized that several support beams needed to be replaced",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "did they realized that several support beams needed to be replaced",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "had they realized that several support beams needed to be replaced",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "realized they that several support beams needed to be replaced",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "did they realize that several support beams needed to be replaced",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "E",
+      "selected_answer": null,
+      "explanation": "Initial Only after... requires inversion: Only after... did they realize"
+    },
+    {
+      "question_number": 23,
+      "question_id": "11436",
+      "answer_id": "1382853",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The collection of antique manuscripts, along with several recently discovered artifacts, were so carefully preserved that the curator recommended that each item must be examined by a specialist before they were placed on public display.",
+      "options": [
+        {
+          "label": "A",
+          "text": "were so carefully preserved that the curator recommended that each item msut be examined by a specialist before they were placed on public display",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "was so carefully preserved that the curator recommended that each item be examined by a specialist before it was placed on public display",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "was so carefully preserved that the curator recommended that each item was examined by a specialist before it was placed on public display",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "were so carefully preserved that the curator recommended that each item be examined by a specialist before it was placed on public display",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "was so carefully preserved that the curator recommended that each items be examined by a specialist before they were placed on public display",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "collection is the subject which is singular, so verb should be was the referred pronoun of each item should be singular it recommend that + base verb → be examined"
+    },
+    {
+      "question_number": 24,
+      "question_id": "11437",
+      "answer_id": "1382854",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The archaeologist remembered to seeing a similar inscription during an excavation in Syria many years earlier.",
+      "options": [
+        {
+          "label": "A",
+          "text": "to seeing a similar inscription",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "seeing a similar inscription",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "to have seen a similar inscription",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "to have been seeing a similar inscription",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "having seen a similar inscription",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "When remember refers to a past experience, remember + gerund is used: remembered seeing ."
+    },
+    {
+      "question_number": 25,
+      "question_id": "11438",
+      "answer_id": "1382855",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The editor wanted to know where was the missing sculpture stored .",
+      "options": [
+        {
+          "label": "A",
+          "text": "where was the missing sculpture stored",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "where the missing sculpture was stored",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "where had the missing sculpture been stored",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "where was stored the missing sculpture",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "where did they store the missing sculpture",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "Embedded questions use Assertive sentence structure (subject + Verb)"
+    },
+    {
+      "question_number": 26,
+      "question_id": "11439",
+      "answer_id": "1382856",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "The freshly baked bread is smelling wonderful .",
+      "options": [
+        {
+          "label": "A",
+          "text": "is smelling wonderful",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "smells wonderfully",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "is smelling wonderfully",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "smells wonderful",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "has smelled wonderfully",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "D",
+      "selected_answer": null,
+      "explanation": "Smell is functioning as a linking verb, so it takes an adjective : smells wonderful."
+    },
+    {
+      "question_number": 27,
+      "question_id": "11440",
+      "answer_id": "1382857",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "Illias was ecstatic as he got a green beautiful ancient Persian vase as his birthday present.",
+      "options": [
+        {
+          "label": "A",
+          "text": "a green beautiful ancient Persian vase",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "a beautiful Persian ancient green vase",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "a beautiful ancient green Persian vase",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "an ancient Persian beautiful green vase",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "a Persian green beautiful ancient vase",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "C",
+      "selected_answer": null,
+      "explanation": "The adjective order follows the below pattern: quality → age → color → proper adjective → noun"
+    },
+    {
+      "question_number": 28,
+      "question_id": "11441",
+      "answer_id": "1382858",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "I enjoy classical music, like my sister does .",
+      "options": [
+        {
+          "label": "A",
+          "text": "like my sister does",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "as my sister does",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "like my sister",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "as my sister",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "and too does my sister.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "as compares two actions. Like is used while comparing two noun/ pronoun. My sister, like I, enjoys classical music. Or, I enjoy classical music as my sister does."
+    },
+    {
+      "question_number": 29,
+      "question_id": "11442",
+      "answer_id": "1382859",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "Which of the following is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The guards let the visitors to enter the chamber.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "The guards got the visitors enter the chamber.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "The guards let the visitors enter the chamber.",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "The guards made the visitors to enter the chamber.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "The guards allowed entering the visitors.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "C",
+      "selected_answer": null,
+      "explanation": "let + object + base verb"
+    },
+    {
+      "question_number": 30,
+      "question_id": "11443",
+      "answer_id": "1382860",
+      "category": "English",
+      "status": null,
+      "marks_awarded": null,
+      "comprehension": null,
+      "question_text": "Which of the following is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The sculpture was so beautiful carved that nobody wanted to touch it.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "B",
+          "text": "The sculpture was so beautifully carved that nobody wanted to touch it.",
+          "is_correct": true,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "C",
+          "text": "The sculpture so beautifully was carved that nobody wanted to touch it.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "D",
+          "text": "The sculpture was carved so beautiful that nobody wanted to touch it.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        },
+        {
+          "label": "E",
+          "text": "The sculpture was such beautifully carved that nobody wanted to touch it.",
+          "is_correct": false,
+          "is_selected": false,
+          "selected_and_wrong": false
+        }
+      ],
+      "correct_answer": "B",
+      "selected_answer": null,
+      "explanation": "Beautifully is an adverb modifying the verb carved ."
+    }
+  ],
+  "stats": {
+    "num_questions_parsed": 30,
+    "num_correct": null,
+    "num_wrong": null
+  },
+  "exam_id": "ed09-review-exam"
+}

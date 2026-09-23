@@ -1,0 +1,6 @@
+node_modules/
+dist/
+data/app.db
+data/app.db-journal
+*.log
+.DS_Store
