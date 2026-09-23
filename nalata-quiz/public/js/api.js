@@ -22,4 +22,18 @@ const api = {
     if (!res.ok) throw new Error("Failed to submit exam");
     return res.json();
   },
+
+  async importExam(payload) {
+    const res = await fetch("/api/exams/import", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const body = await res.json().catch(() => null);
+    if (!res.ok) {
+      const message = body && body.error ? body.error : "Failed to import exam";
+      throw new Error(message);
+    }
+    return body;
+  },
 };

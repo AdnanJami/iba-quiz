@@ -45,7 +45,7 @@ function breakdownItemHTML(item, index) {
         <span class="q-number">Question ${index + 1}</span>
         ${statusTag(item)}
       </div>
-      <p class="question-text">${escapeHTML(item.question_text)}</p>
+      <p class="question-text">${item.question_text}</p>
       ${options}
       ${explanation}
     </article>

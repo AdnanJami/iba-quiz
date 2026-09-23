@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>na lata — import exam</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <a href="/" class="brand">na<span>lata</span></a>
+    <a href="/" class="btn btn-ghost btn-small">Home</a>
+  </div>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Import an <span class="accent">exam export.</span></h1>
+      <p>Upload the Capstone-style "Exam Details" HTML page, or paste its source directly. It'll be converted server-side and saved as a new exam.</p>
+    </section>
+
+    <form id="import-form" class="brutal import-card">
+      <label class="field-label" for="html-file">Upload HTML file</label>
+      <input type="file" id="html-file" accept=".html,text/html" />
+
+      <label class="field-label" for="html-text">…or paste HTML here</label>
+      <textarea id="html-text" rows="10" placeholder="<html>...</html>"></textarea>
+
+      <div class="field-row">
+        <label class="field-label" for="exam-id">Exam id / filename (optional)</label>
+        <input type="text" id="exam-id" placeholder="e.g. ed10-review-exam" />
+      </div>
+
+      <label class="checkbox-row">
+        <input type="checkbox" id="as-template" checked />
+        Strip submission data (scores, selected answers) and save as a reusable blank template
+      </label>
+
+      <button type="submit" class="btn btn-primary btn-block">Convert &amp; save</button>
+
+      <div id="import-status" class="import-status"></div>
+    </form>
+  </main>
+
+  <footer>na lata · imports run through html_to_json, server-side</footer>
+
+  <script src="/js/doodles.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/import.js"></script>
+</body>
+</html>

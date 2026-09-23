@@ -9,8 +9,12 @@ function escapeHTML(str) {
 }
 
 function questionCardHTML(q, index, total) {
+  // comprehension and question_text arrive from the server already
+  // sanitized to plain text + <u> tags only (see src/htmlToJson.ts), so
+  // they're inserted as-is here rather than run through escapeHTML -
+  // that's what lets the underlined error markers survive.
   const comprehension = q.comprehension
-    ? `<div class="comprehension">${escapeHTML(q.comprehension)}</div>`
+    ? `<div class="comprehension">${q.comprehension}</div>`
     : "";
 
   const options = q.options
@@ -31,7 +35,7 @@ function questionCardHTML(q, index, total) {
         <span class="q-number">Question ${index + 1} of ${total}</span>
         <span class="q-category">${escapeHTML(q.category || "")}</span>
       </div>
-      <p class="question-text">${escapeHTML(q.question_text)}</p>
+      <p class="question-text">${q.question_text}</p>
       <div class="options">${options}</div>
     </article>
   `;

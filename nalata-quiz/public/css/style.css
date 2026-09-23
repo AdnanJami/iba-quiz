@@ -572,3 +572,63 @@ footer {
 .btn-ghost-dark:hover {
   box-shadow: 7px 7px 0 0 var(--coral);
 }
+
+/* ---------- import page (append to style.css) ---------- */
+.import-card {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.field-label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.import-card input[type="text"],
+.import-card input[type="file"],
+.import-card textarea {
+  font-family: var(--font-body);
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #fff;
+  color: var(--navy);
+  width: 100%;
+}
+
+.import-card textarea {
+  resize: vertical;
+  font-family: monospace;
+  font-size: 0.8rem;
+}
+
+.field-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.import-status {
+  min-height: 20px;
+  font-weight: 600;
+}
+
+.import-status-success {
+  color: #1a7a1a;
+}
+
+.import-status-error {
+  color: #b3261e;
+}
